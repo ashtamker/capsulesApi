@@ -7,7 +7,7 @@
 .arrow-up,
 .arrow-down {
     cursor: pointer;
-    color: #bbb;
+    color: #333;
 }
 
 .arrow-up {
@@ -23,10 +23,8 @@
     width: 90%;
     top: 15%;
     left: 5%;
-    height: 1800px;
-    margin-bottom: 50px;
-    background: #fff;  
-    background: rgba(241, 243, 244, 1);
+    height: 80vh;
+    background-color: #777;
 }
 
 .container-table table {
@@ -41,10 +39,8 @@ th, td {
 
 .container-table .table-head {
     text-align: left;
-    background-color: #6c7ae0;
-    color: #fff;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    background-color: #E74C3C;
+    color: #333;
 }
 
 .container-table .table-body tr:nth-child(even) {
@@ -101,9 +97,6 @@ th, td {
 }
 
 
-/*~~~~~~~~~~~
-Table Buttons
-~~~~~~~~~~~*/
 .button-column span {
     color: white;
     padding: 9px;
