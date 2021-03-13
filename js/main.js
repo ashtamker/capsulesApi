@@ -25,3 +25,18 @@ for(let i = 0; i < data.length; i++){
 
 getUser();
 console.log(userList);
+
+class Student {
+    constructor(idNum, firstName, lastName, group, age, city, hobby,) {
+        this.idNum = parseInt(idNum);
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.group = parseInt(group);
+        this.aeg = parseInt(age);
+        this.city = city;
+        this.hobby = hobby;
+        
+
+
+    }
+}
