@@ -22,3 +22,6 @@ for(let i = 0; i < data.length; i++){
      this.students.push(newUser);
 
 }
+
+getUser();
+console.log(userList);

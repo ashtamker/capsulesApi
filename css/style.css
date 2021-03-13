@@ -4,3 +4,136 @@
     box-sizing: border-box;
 }
 
+.arrow-up,
+.arrow-down {
+    cursor: pointer;
+    color: #bbb;
+}
+
+.arrow-up {
+    margin-left: 4px;
+}
+
+.arrow-selected {
+    color: #fff;
+}
+
+.container-table {
+    position: absolute;
+    width: 90%;
+    top: 15%;
+    left: 5%;
+    height: 1800px;
+    margin-bottom: 50px;
+    background: #fff;  
+    background: rgba(241, 243, 244, 1);
+}
+
+.container-table table {
+    width: 100%;
+    font-size: 0.8rem;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 18px 8px;
+} 
+
+.container-table .table-head {
+    text-align: left;
+    background-color: #6c7ae0;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container-table .table-body tr:nth-child(even) {
+    background-color: #f8f6ff;
+}
+
+.container-table .table-body tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.id-column {
+    width: 8%;
+    padding-left: 25px;
+}
+.first-name-column {
+    width: 12%
+}
+.last-name-column {
+    width: 12%
+}
+.capsule-column {
+    width: 8%
+}
+.age-column {
+    width: 8%
+}
+.city-column {
+    width: 12%
+}
+.city-column__weather {
+    background-color: black;
+    color: white;
+    padding: 20px 80px 20px 0;
+    display: none;
+    border-radius: 8px;
+}
+.city-column__city:hover {
+    display: none;
+}
+.city-column__city:hover + .city-column__weather {
+    display: inline;
+}
+.gender-column {
+    width: 8%
+}
+.hobby-column {
+    width: 12%
+}
+.button-column {
+    width: 20%;
+    min-width: 90px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+
+/*~~~~~~~~~~~
+Table Buttons
+~~~~~~~~~~~*/
+.button-column span {
+    color: white;
+    padding: 9px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #8E49E8;
+    margin-right: 4px;
+}
+
+.delete-button {
+    background-color: #777;
+    margin-left: 4px;
+}
+.save-button {
+    background-color: seagreen;
+    margin-right: 4px;
+}
+.button-column .close-button{
+    background-color: #E74C3C;
+    padding: 9px 11px;
+    margin-left: 4px;
+}
+
+td input {
+    width: 80%;
+    padding: 5px;
+    border-radius: 8px;
+    outline: none;
+}
