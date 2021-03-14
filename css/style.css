@@ -4,52 +4,6 @@
     box-sizing: border-box;
 }
 
-
-/* .container-table {
-    position: absolute;
-    width: 90%;
-    top: 15%;
-    left: 5%;
-    height: 80vh;
-    background-color: #777;
-}
-
-.container-table table {
-    width: 100%;
-    font-size: 0.8rem;
-    border-spacing: 0;
-}
-
-th, td {
-    padding: 18px 8px;
-} 
-
-.container-table .table-head {
-    text-align: left;
-    background-color: #E74C3C;
-    color: #333;
-}
-
-.container-table .table-body tr:nth-child(even) {
-    background-color: #f8f6ff;
-}
-
-.container-table .table-body tr:nth-child(odd) {
-    background-color: #fff;
-}
-
-td input {
-    width: 80%;
-    padding: 5px;
-    border-radius: 8px;
-    outline: none;
-} */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
   body {
     background-color: #666;
   }
